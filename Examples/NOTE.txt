@@ -1,0 +1,14 @@
+How to run these examples:
+
+1. Basic Adder (Works in Perl & Python):
+   python ../python/gen_tb.py full_adder.v
+
+2. 4-Bit Counter (Works in Perl & Python):
+   python ../python/gen_tb.py counter_4bit.v
+   (Tip: To better visualize the counting sequence, consider increasing the `delay` variable 
+   in 'gen_tb.py' (e.g., to 50 or 100). This allows the counter to increment for multiple 
+   clock cycles between random input changes.)
+
+3. Advanced Vector Demo (PYTHON ONLY):
+   python ../python/gen_tb.py python_demo.v
+   (Note: The Perl script will fail on the [0:7] vector declaration)
